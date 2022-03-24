@@ -116,4 +116,4 @@ def module_installed(name, version_string=None):
 		:func:`pip.get_installed_distributions`.
 	"""
 
-    return installed.module_installed(name, version_string)
+	return installed.module_installed(name, version_string)
